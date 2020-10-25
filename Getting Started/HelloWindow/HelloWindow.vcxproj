@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0e28bb11-2cb7-437d-8b3c-6d172c6a8338}</ProjectGuid>
-    <RootNamespace>ExperimentOne</RootNamespace>
+    <ProjectGuid>{9317e0e3-fc5f-4cee-9f64-854df00b1f56}</ProjectGuid>
+    <RootNamespace>HelloWindow</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -79,7 +79,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\Program Files\OpenGL\glfw\include;D:\Program Files\OpenGL\glad\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Program Files\OpenGL\glfw\build\src\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\Program Files\OpenGL\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="D:\Program Files\OpenGL\glad\src\glad.c" />
-    <ClCompile Include="hello_window.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

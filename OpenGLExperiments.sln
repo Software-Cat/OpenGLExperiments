@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentOne", "ExperimentOne\ExperimentOne.vcxproj", "{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getting Started", "Getting Started", "{27722D6C-28C0-46E0-9506-20B0E91948AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lighting", "Lighting", "{66FDD41F-3D8B-4424-A708-26862D096E03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model Loading", "Model Loading", "{1C80BA23-2124-41C8-994B-A957F7ADC6B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced OpenGL", "Advanced OpenGL", "{B7A11AD3-F75F-4F20-9E12-F9A9C057E876}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced Lighting", "Advanced Lighting", "{E55B7EFB-E927-4542-9A25-77122B4925D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PBR", "PBR", "{56F93FB8-1905-416C-AF12-07065A933691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "In Practice", "In Practice", "{19470E53-4853-4AD5-AE9B-AB18E560DB12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2d Game", "2d Game", "{A192B75F-05F6-4D48-B73E-8B0313A635A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWindow", "Getting Started\HelloWindow\HelloWindow.vcxproj", "{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloTriangle", "Getting Started\HelloTriangle\HelloTriangle.vcxproj", "{0188E23D-2827-449F-BDB5-FFB331A44D1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +31,29 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Debug|x64.ActiveCfg = Debug|x64
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Debug|x64.Build.0 = Debug|x64
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Debug|x86.ActiveCfg = Debug|Win32
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Debug|x86.Build.0 = Debug|Win32
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Release|x64.ActiveCfg = Release|x64
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Release|x64.Build.0 = Release|x64
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Release|x86.ActiveCfg = Release|Win32
-		{0E28BB11-2CB7-437D-8B3C-6D172C6A8338}.Release|x86.Build.0 = Release|Win32
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Debug|x64.ActiveCfg = Debug|x64
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Debug|x64.Build.0 = Debug|x64
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Debug|x86.ActiveCfg = Debug|Win32
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Debug|x86.Build.0 = Debug|Win32
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Release|x64.ActiveCfg = Release|x64
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Release|x64.Build.0 = Release|x64
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Release|x86.ActiveCfg = Release|Win32
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56}.Release|x86.Build.0 = Release|Win32
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Debug|x64.ActiveCfg = Debug|x64
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Debug|x64.Build.0 = Debug|x64
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Debug|x86.Build.0 = Debug|Win32
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Release|x64.ActiveCfg = Release|x64
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Release|x64.Build.0 = Release|x64
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Release|x86.ActiveCfg = Release|Win32
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9317E0E3-FC5F-4CEE-9F64-854DF00B1F56} = {27722D6C-28C0-46E0-9506-20B0E91948AD}
+		{0188E23D-2827-449F-BDB5-FFB331A44D1C} = {27722D6C-28C0-46E0-9506-20B0E91948AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3721FBF-7560-41B9-933A-52D5B494B24C}
