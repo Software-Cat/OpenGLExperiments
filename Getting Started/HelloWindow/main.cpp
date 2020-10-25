@@ -12,8 +12,8 @@ static void keyCallback(GLFWwindow* window, int key, int scancode, int action, i
 static void render(GLFWwindow* window);
 
 // Settings
-const unsigned int kScrWidth = 800;
-const unsigned int kScrHeight = 600;
+const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_HEIGHT = 600;
 
 int main(void) {
     // Initialization
@@ -31,7 +31,7 @@ int main(void) {
 #endif
 
     // Create window
-    GLFWwindow* window = glfwCreateWindow(kScrWidth, kScrHeight, "OpelGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "OpelGL", NULL, NULL);
     if(!window) {
         glfwTerminate();
         exit(EXIT_FAILURE);
@@ -71,6 +71,7 @@ static void keyCallback(GLFWwindow* window, int key, int scancode, int action, i
 }
 
 static void render(GLFWwindow* window) {
+
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
